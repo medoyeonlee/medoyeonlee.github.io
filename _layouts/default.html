@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html>
+---
+layout: base
+---
 
-{% include head.html %}
+<div class="intro-header"></div>
 
-<body>
-
-{% include header.html %}
-
-<div class="main">
-    <div class="container">
-        {{ content }}
-    </div>
-    <div class="page-scrollTop" data-toggle="tooltip" data-placement="top" title="Top">
-        <a href="javascript:void(0);">
-            <div class="arrow"></div>
-            <div class="stick"></div>
-        </a>
-    </div>
+<div role="main" class="container">
+  {{ content }}
 </div>
-
-{% include footer.html %}
-
-</body>
-</html>
